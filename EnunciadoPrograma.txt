@@ -1,0 +1,10 @@
+Diseña e implementa una API REST en Flask que permita gestionar clientes y sus movimientos financieros. 
+La API debe conectarse a una base de datos MySQL y ofrecer endpoints para:
+Registrar clientes (mediante formulario o JSON)
+Registrar movimientos asociados a un cliente(mediante JSON), incluyendo campos como id_cliente, monto, tipo y fecha
+Confirmar la persistencia de los datos en la base de datos.
+Devolver las respuestas en formato JSON con códigos de estado HTTP adecuados (ej. 201 Created al registrar un movimiento)
+El sistema debe garantizar la integridad referencial entre clientes y movimientos, de modo que cada movimiento este asociado
+a un cliente existente. Ademas, se debe poder consultar los registros mediante endpoints GET para verificar que los datos 
+fueron almacenados correctamente. 
+Mini-Sistema de gestion financiera via API REST. 

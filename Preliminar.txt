@@ -1,0 +1,7 @@
+Mini-proyecto, realista.
+API de Gestion de clientes y Movimientos (tipo CRM basico)
+Una empresa pequeña necesita:
+Guardar clientes
+Registrar movimientos (pagos, compras y servicios)
+Consultar información desde una API
+No hay frontend (solo back-end)
